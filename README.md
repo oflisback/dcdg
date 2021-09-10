@@ -1,4 +1,4 @@
-# Docker compose dependency graph
+# Docker compose dependency graph generator
 
 Simple generator of dependency graph based on ```depends_on``` declarations in a ```docker-compose.yaml```. The yaml is parsed with [js-yaml](https://github.com/nodeca/js-yaml) and the dependency graph is rendered with [mermaid-cli](https://github.com/mermaid-js/mermaid-cli).
 
@@ -25,6 +25,11 @@ npm install -g dcdg
 ```
 
 ## Example output
+
+
+<p align="center">
+  <img src="https://github.com/oflisback/dcdg/blob/main/docs/example.png?raw=true" alt="Example graph"/>
+</p>
 
 ## Contribute
 
