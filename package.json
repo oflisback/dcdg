@@ -1,0 +1,16 @@
+{
+  "bin": {
+    "dcdg": "./cli.js"
+  },
+  "description": "Generate dependency graph from docker-compose.yaml",
+  "name": "dcdg",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Ola Flisbäck <ola.flisback@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "minimist": "^1.2.5",
+    "tmp": "^0.2.1"
+  }
+}
